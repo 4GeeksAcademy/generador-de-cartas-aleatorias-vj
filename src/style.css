@@ -1,5 +1,56 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+body {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(0, 173, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: white;
+    border-radius: 25px;
+    height: 500px;
+    width: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px rgba(19, 19, 19, 0.2);
+}
+
+.parteSuperior {
+    height: 25%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 70px;
+}
+
+.parteCentro {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.parteInferior {
+    transform: rotate(180deg);
+    height: 25%;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 70px;
+}
+
+.rojo {
+    color: red;
+}
+
+.negro {
+    color: black;
 }
