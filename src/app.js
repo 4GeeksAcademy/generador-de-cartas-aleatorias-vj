@@ -30,7 +30,7 @@ window.onload = function() {
   const segundoDiv = document.getElementById('parteCentro');
   const tercerDiv = document.getElementById('parteInferior');
 
-  //.textContent = --> establece el texto contenido dentro de un elemento del DOM.
+  //.textContent = --> establece el texto contenido dentro de un elemento del DOM. Debo estudiar las diferencias con innerHtml e innerText.
   primerDiv.textContent = paloAleatorio.palo;
   segundoDiv.textContent = valorAleatorio;
   tercerDiv.textContent = paloAleatorio.palo;
